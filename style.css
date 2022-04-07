@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    display: flex;
+}
+
+header{
+    position: relative;
+    width: 50vh;
+    height: 100vh;
+    background: rgb(190, 186 186);
+    background: linear-gradient( 0deg, #ff676791, rgb(196, 0, 0) 50%, rgb(84, 6, 12) 100%);
+}
+
+nav{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.foto-perfil{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid #a00000;
+}
+
+.link-navegacao{
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: center;
+    font-style: normal;
+    
+}
+
+.link-navegacao {
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    transition: all 0.2s;
+    list-style-type: none;
+  }
+
+  
+a{
+    text-decoration: none;
+}
+
+img.redes-sociais{
+    position:  absolute;
+    margin-top: 70vh;
+    width: 35px;
+    height: 35px;
+}
+
+#redes-sociais{
+    position: relative;
+    left: 40px;
+    margin-top: 70vh;
+    margin-bottom: 45vh; 
+    width: 35px;
+    height: 35px;
+    padding-left: 10px; 
+}
+
+span#sobre-contato{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 15px;
+}
+
+h1{
+    position: absolute;
+    margin-top: 40vh;
+    margin-bottom: 100px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 65px;   
+}
+
+span{
+    color: red;  
+}
+
+span#sobre{
+    color: white;
+}
+
+span#conhecimento{
+    color: white;
+}
+
+span#objetivo{
+    color: white;
+}
+
+.informacao-pessoal{
+    position: absolute;
+    font-size: 18px;
+    font-family: 'comfortaa', cursive;
+    left: 55vh; 
+     
+}
+
+#info{
+    color: red;
+    position: relative;
+    top: 62vh;
+    padding: 5px;
+}
+
+p.texto-sobre{
+    position:relative;
+    font-family: sans-serif;
+    width: 45vw;
+    top: 50vh;
+    left: -19vh;
+    font-size: 17px;   
+}
+
+.conhecimentos{
+    position: relative;
+    color: red;
+    font-family: "Titillium Web", sans-serif;
+    left: 100px;
+    margin-top: 40vh; 
+    font-size: 40px;       
+
+}
+#linguagens{
+    position: relative;
+    left: 100px;
+}
+
+
+.objetivos{
+    position: relative;
+    color: red;
+    font-family: "Titillium Web", sans-serif;
+    left: 10vw;
+    margin-top: 40vh; 
+    font-size: 50px; 
+    
+}
+
+ul#objetivos{
+    position: relative;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    left: 10vw;
+
+}
